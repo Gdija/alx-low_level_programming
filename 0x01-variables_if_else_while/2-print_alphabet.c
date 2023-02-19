@@ -1,17 +1,18 @@
 #include <stdio.h>
 /**
- * main - Prints the alphabet
+ * main - prints the alphabet
  *
- * Retrun: Always 0
+ *Return: Always 0 (Success)
  */
 int main(void)
 {
-	char A;
-	A = 'a';
+	char a;
 
-	for (A = 'a'; A <= 'z'; ++A)
+	a = 'a';
+
+	for (a = 'a'; a <= 'z'; ++a)
 	{
-	putchar(A);
+	putchar(a);
 	}
 	putchar('\n');
 	return (0);
